@@ -1,0 +1,6 @@
+config {
+  type: "table",
+  schema: "sales_mart"
+}
+
+SELECT * FROM ${ref("stg_orders")}

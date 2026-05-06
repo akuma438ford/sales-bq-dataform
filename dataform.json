@@ -1,0 +1,5 @@
+{
+  "defaultDatabase": "prj-dfdw-1236-dcore-d",
+  "defaultSchema": "sales_staging",
+  "defaultLocation": "us-central1"
+}

@@ -1,0 +1,6 @@
+config {
+  type: "view",
+  schema: "sales_staging"
+}
+
+SELECT 1 as test

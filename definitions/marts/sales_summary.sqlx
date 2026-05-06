@@ -3,9 +3,4 @@ config {
   schema: "sales_mart"
 }
 
-SELECT
-  customer_id,
-  SUM(amount) AS total_amount,
-  SUM(tax) AS total_tax
-FROM ${ref("stg_orders")}
-GROUP BY customer_id
+SELECT * FROM ${ref("stg_orders")}

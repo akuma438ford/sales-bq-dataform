@@ -3,10 +3,4 @@ config {
   schema: "sales_staging"
 }
 
-SELECT
-  order_id,
-  customer_id,
-  amount,
-  order_date,
-  amount * 0.1 AS tax   -- ✅ IMPORTANT
-FROM `prj-dfdw-1236-dcore-d.sales_raw.orders`
+SELECT 1 as test

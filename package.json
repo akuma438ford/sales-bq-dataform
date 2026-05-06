@@ -1,0 +1,7 @@
+{
+  "name": "sales-bq-dataform",
+  "version": "1.0.0",
+  "dependencies": {
+    "@dataform/core": "latest"
+  }
+}
